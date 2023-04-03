@@ -1,8 +1,0 @@
-{
-    "bundles": {
-        "Mbarbey\\U2fSecurityBundle\\MbarbeyU2fSecurityBundle": ["all"]
-    },
-    "copy-from-recipe": {
-        "config/": "%CONFIG_DIR%/"
-    }
-}

@@ -1,0 +1,30 @@
+{
+    "manifests": {
+        "coka/doctrine-encrypt-bundle": {
+            "manifest": {
+                "bundles": {
+                    "Oka\\Doctrine\\EncryptBundle\\OkaDoctrineEncryptBundle": [
+                        "all"
+                    ]
+                },
+                "copy-from-recipe": {
+                    "config/": "%CONFIG_DIR%/"
+                },
+                "env": {
+                    "OKA_DOCTRINE_ENCRYPT_SECRET": "%generate(secret)%"
+                }
+            },
+            "files": {
+                "config/packages/oka_doctrine_encrypt.yaml": {
+                    "contents": [
+                        "oka_doctrine_encrypt:",
+                        "    secret: '%env(OKA_DOCTRINE_ENCRYPT_SECRET)%'",
+                        ""
+                    ],
+                    "executable": false
+                }
+            },
+            "ref": "2ff1c3621a1d12dff8d9f44775d4015c7ea85f8b"
+        }
+    }
+}

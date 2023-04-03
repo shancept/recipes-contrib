@@ -1,8 +1,0 @@
-{
-    "bundles": {
-        "Eko\\FeedBundle\\EkoFeedBundle": ["all"]
-    },
-    "copy-from-recipe": {
-        "config/": "%CONFIG_DIR%/"
-    }
-}

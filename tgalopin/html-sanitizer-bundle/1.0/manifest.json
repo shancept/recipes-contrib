@@ -1,8 +1,0 @@
-{
-    "bundles": {
-        "HtmlSanitizer\\Bundle\\HtmlSanitizerBundle": ["all"]
-    },
-    "copy-from-recipe": {
-        "config/": "%CONFIG_DIR%/"
-    }
-}

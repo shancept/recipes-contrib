@@ -1,8 +1,0 @@
-{
-    "bundles": {
-        "KunicMarko\\JMSMessengerAdapter\\Bridge\\Symfony\\JMSMessengerAdapterBundle": ["all"]
-    },
-    "copy-from-recipe": {
-        "config/": "%CONFIG_DIR%/"
-    }
-}

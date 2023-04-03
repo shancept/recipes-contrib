@@ -1,8 +1,0 @@
-{
-    "bundles": {
-        "LAG\\AdminBundle\\LAGAdminBundle": ["all"]
-    },
-    "copy-from-recipe": {
-        "config/": "%CONFIG_DIR%/"
-    }
-}

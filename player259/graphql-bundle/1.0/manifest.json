@@ -1,8 +1,0 @@
-{
-    "bundles": {
-        "Player259\\GraphQLBundle\\Player259GraphQLBundle": ["all"]
-    },
-    "copy-from-recipe": {
-        "config/": "%CONFIG_DIR%/"
-    }
-}

@@ -1,8 +1,0 @@
-{
-    "bundles": {
-        "Kunstmaan\\CookieBundle\\KunstmaanCookieBundle": ["all"]
-    },
-    "copy-from-recipe": {
-        "config/": "%CONFIG_DIR%/"
-    }
-}

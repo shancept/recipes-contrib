@@ -1,8 +1,0 @@
-{
-    "copy-from-recipe": {
-        "deptrac.yaml": "deptrac.yaml"
-    },
-    "gitignore": [
-        "/.deptrac.cache"
-    ]
-}

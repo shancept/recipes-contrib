@@ -1,2 +1,0 @@
-  * <fg=blue>Configure</> bundle in <comment>config/packages/symbok.yaml</>
-  * <fg=blue>Read</> the documentation at <comment>https://github.com/mtarld/symbok-bundle/blob/master/src/Resources/doc/index.md</>

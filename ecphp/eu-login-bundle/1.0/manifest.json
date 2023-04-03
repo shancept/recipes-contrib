@@ -1,8 +1,0 @@
-{
-    "bundles": {
-        "EcPhp\\EuLoginBundle\\EuLoginBundle": ["all"]
-    },
-    "copy-from-package": {
-        "Resources/config/": "%CONFIG_DIR%/"
-    }
-}

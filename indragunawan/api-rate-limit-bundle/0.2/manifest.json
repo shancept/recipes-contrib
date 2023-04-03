@@ -1,8 +1,0 @@
-{
-    "bundles": {
-        "Indragunawan\\ApiRateLimitBundle\\IndragunawanApiRateLimitBundle": ["prod"]
-    },
-    "copy-from-recipe": {
-        "config/": "%CONFIG_DIR%/"
-    }
-}

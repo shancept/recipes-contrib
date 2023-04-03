@@ -1,8 +1,0 @@
-{
-    "bundles": {
-        "Aziz403\\UX\\Datatable\\DatatableBundle": ["all"]
-    },
-    "copy-from-recipe": {
-        "config/": "%CONFIG_DIR%/"
-    }
-}

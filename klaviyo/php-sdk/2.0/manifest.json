@@ -1,9 +1,0 @@
-{
-    "copy-from-recipe": {
-        "config/": "%CONFIG_DIR%/"
-    },
-    "env": {
-        "KLAVIYO_PUBLIC_KEY": "",
-        "KLAVIYO_PRIVATE_KEY": ""
-    }
-}

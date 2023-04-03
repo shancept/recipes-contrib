@@ -1,2 +1,0 @@
-  * Learn how to integrate Content Browser into your CMS backend by reading
-    the documentation located at: <comment>https://docs.netgen.io/projects/cb/en/latest/</>

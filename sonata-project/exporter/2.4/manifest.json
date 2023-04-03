@@ -1,5 +1,0 @@
-{
-    "bundles": {
-        "Sonata\\Exporter\\Bridge\\Symfony\\SonataExporterBundle": ["all"]
-    }
-}

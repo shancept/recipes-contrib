@@ -1,2 +1,0 @@
-sonata_annotation:
-    directory: '%kernel.project_dir%/src/Entity'

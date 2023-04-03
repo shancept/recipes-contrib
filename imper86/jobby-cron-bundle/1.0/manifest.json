@@ -1,8 +1,0 @@
-{
-    "bundles": {
-        "Imper86\\JobbyBundle\\Imper86JobbyBundle": ["all"]
-    },
-    "copy-from-recipe": {
-        "config/": "%CONFIG_DIR%/"
-    }
-}

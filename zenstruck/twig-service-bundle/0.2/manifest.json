@@ -1,5 +1,0 @@
-{
-    "bundles": {
-        "Zenstruck\\Twig\\ZenstruckTwigServiceBundle": ["all"]
-    }
-}

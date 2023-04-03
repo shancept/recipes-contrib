@@ -1,0 +1,48 @@
+{
+    "manifests": {
+        "solvrtech/symfony-logbook": {
+            "manifest": {
+                "bundles": {
+                    "Solvrtech\\Symfony\\Logbook\\LogbookBundle": [
+                        "all"
+                    ]
+                },
+                "copy-from-recipe": {
+                    "config/": "%CONFIG_DIR%/"
+                },
+                "env": {
+                    "LOGBOOK_API_URL": "Logbook API url",
+                    "LOGBOOK_API_KEY": "Logbook API key",
+                    "LOGBOOK_LEVEL": "ERROR"
+                }
+            },
+            "files": {
+                "config/packages/logbook.yaml": {
+                    "contents": [
+                        "logbook:",
+                        "    api:",
+                        "        # The base url of logbook app.",
+                        "        url: \"%env(LOGBOOK_API_URL)%\"",
+                        "",
+                        "        # The key of logbook client app.",
+                        "        key: \"%env(LOGBOOK_API_KEY)%\"",
+                        "",
+                        "    # The minimum log level allowed to be stored.",
+                        "    # DEBUG",
+                        "    # INFO",
+                        "    # NOTICE",
+                        "    # WARNING",
+                        "    # ERROR",
+                        "    # CRITICAL",
+                        "    # ALERT",
+                        "    # EMERGENCY",
+                        "    level: \"%env(LOGBOOK_LEVEL)%\"",
+                        ""
+                    ],
+                    "executable": false
+                }
+            },
+            "ref": "7ab83b418e7145dee7c44ad07b0cc10de2967a79"
+        }
+    }
+}

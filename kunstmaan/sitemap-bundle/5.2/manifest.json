@@ -1,8 +1,0 @@
-{
-    "bundles": {
-        "Kunstmaan\\SitemapBundle\\KunstmaanSitemapBundle": ["all"]
-    },
-    "copy-from-recipe": {
-        "config/": "%CONFIG_DIR%/"
-    }
-}

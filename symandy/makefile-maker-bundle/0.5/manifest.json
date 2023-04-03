@@ -1,8 +1,0 @@
-{
-    "bundles": {
-        "Symandy\\MakefileMakerBundle\\SymandyMakefileMakerBundle": ["dev"]
-    },
-    "copy-from-recipe": {
-        "config/": "%CONFIG_DIR%/"
-    }
-}

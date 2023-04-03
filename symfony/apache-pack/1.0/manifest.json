@@ -1,5 +1,0 @@
-{
-    "copy-from-recipe": {
-        "public/": "%PUBLIC_DIR%/"
-    }
-}

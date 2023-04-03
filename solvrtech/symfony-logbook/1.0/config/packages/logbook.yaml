@@ -1,7 +1,0 @@
-logbook:
-    api:
-        # The base url of logbook app.
-        url: ""
-
-        # The API key of logbook client app.
-        key: ""

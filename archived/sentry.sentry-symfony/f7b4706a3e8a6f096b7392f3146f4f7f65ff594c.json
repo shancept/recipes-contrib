@@ -1,0 +1,47 @@
+{
+    "manifests": {
+        "sentry/sentry-symfony": {
+            "manifest": {
+                "bundles": {
+                    "Sentry\\SentryBundle\\SentryBundle": [
+                        "prod"
+                    ]
+                },
+                "copy-from-recipe": {
+                    "config/": "%CONFIG_DIR%/"
+                },
+                "env": {
+                    "SENTRY_DSN": ""
+                },
+                "conflict": {
+                    "symfony/framework-bundle": "<5.4",
+                    "symfony/monolog-bundle": "<3.7"
+                }
+            },
+            "files": {
+                "config/packages/sentry.yaml": {
+                    "contents": [
+                        "when@prod:",
+                        "    sentry:",
+                        "        dsn: '%env(SENTRY_DSN)%'",
+                        "",
+                        "#        If you are using Monolog, you also need this additional configuration to log the errors correctly:",
+                        "#        https://docs.sentry.io/platforms/php/guides/symfony/#monolog-integration",
+                        "#        register_error_listener: false",
+                        "#        register_error_handler: false",
+                        "",
+                        "#    monolog:",
+                        "#        handlers:",
+                        "#            sentry:",
+                        "#                type: sentry",
+                        "#                level: !php/const Monolog\\Logger::ERROR",
+                        "#                hub_id: Sentry\\State\\HubInterface",
+                        ""
+                    ],
+                    "executable": false
+                }
+            },
+            "ref": "f7b4706a3e8a6f096b7392f3146f4f7f65ff594c"
+        }
+    }
+}

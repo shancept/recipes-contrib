@@ -1,8 +1,0 @@
-{
-    "bundles": {
-        "Wemxo\\DynamicFormBundle\\DynamicFormBundle": ["all"]
-    },
-    "copy-from-recipe": {
-        "config/": "%CONFIG_DIR%/"
-    }
-}

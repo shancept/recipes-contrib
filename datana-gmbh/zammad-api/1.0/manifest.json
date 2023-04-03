@@ -1,9 +1,0 @@
-{
-    "copy-from-recipe": {
-        "config/": "%CONFIG_DIR%/"
-    },
-    "env": {
-        "ZAMMAD_API_BASE_URI": "",
-        "ZAMMAD_API_TOKEN": ""
-    }
-}

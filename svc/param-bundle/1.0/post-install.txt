@@ -1,1 +1,0 @@
-  * Please adapt config/routes/svc-param.yaml and define your route

@@ -1,9 +1,0 @@
-{
-    "bundles": {
-        "Sonata\\PageBundle\\SonataPageBundle": ["all"]
-    },
-    "copy-from-recipe": {
-        "config/": "%CONFIG_DIR%/",
-        "src/": "%SRC_DIR%/"
-    }
-}

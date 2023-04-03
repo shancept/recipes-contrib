@@ -1,4 +1,0 @@
-webylum_puppeteer_server_client:
-    server:
-        url: '%env(PUPPETEER_SERVER_URL)%'
-    public_dir: '%kernel.project_dir%/public'

@@ -1,3 +1,0 @@
-  * Add the WordpressBundle routing file in your `config/routes.yaml`, after your custom routes to catch all Wordpress routes.
-
-  * <fg=blue>Read</> the documentation at <comment>https://github.com/mbo2olivier/mukadi-wordpress-bundle</>

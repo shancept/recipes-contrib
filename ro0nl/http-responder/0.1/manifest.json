@@ -1,5 +1,0 @@
-{
-    "bundles": {
-        "ro0NL\\HttpResponder\\Bundle\\HttpResponderBundle": ["all"]
-    }
-}

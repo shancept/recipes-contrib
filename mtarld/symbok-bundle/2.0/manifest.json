@@ -1,8 +1,0 @@
-{
-    "bundles": {
-        "Mtarld\\SymbokBundle\\SymbokBundle": ["all"]
-    },
-    "copy-from-recipe": {
-        "config/": "%CONFIG_DIR%/"
-    }
-}

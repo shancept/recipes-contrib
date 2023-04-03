@@ -1,8 +1,0 @@
-{
-    "bundles": {
-        "Kunstmaan\\PagePartBundle\\KunstmaanPagePartBundle": ["all"]
-    },
-    "copy-from-recipe": {
-        "config/": "%CONFIG_DIR%/"
-    }
-}

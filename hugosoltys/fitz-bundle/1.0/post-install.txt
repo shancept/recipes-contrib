@@ -1,2 +1,0 @@
-  * <fg=blue>Choose your bundles</> by visiting <comment>http://localhost/fitz/install</>
-  * <fg=blue>Install</> them by running <comment>php bin/console fitz:install</>
