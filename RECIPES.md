@@ -1,6 +1,6 @@
 # List of Recipes
 
-Additional recipes can be found on the [Main Recipes Repository](https://github.com/symfony/recipes/blob/flex/main/RECIPES.md)
+Additional recipes can be found on the [Main Recipes Repository](https://github.com/shancept/recipes/blob/flex/main/RECIPES.md)
 
 | Package | Latest Recipe |
 | --- | --- |
