@@ -63,7 +63,7 @@ Framework bundle.
 Maintainability
 ###############
 
-The symfony/recipes-contrib repository should contain the config for packages. Using
+The shancept/recipes-contrib repository should contain the config for packages. Using
 "``copy-from-package`` Configurator" for routes and config is not allowed. That would
 make the recipes impossible to maintain and to assure their quality.
 
@@ -72,6 +72,6 @@ not intended to be used as "bootstrap full application" and copy a lot of PHP co
 front-end assets etc. Recipes are for quick installation of packages.
 
 .. _`Symfony Flex`: https://github.com/symfony/flex
-.. _`Symfony recipes`: https://github.com/symfony/recipes
-.. _`documentation`: https://github.com/symfony/recipes
-.. _`RECIPES.md`: https://github.com/symfony/recipes-contrib/blob/flex/main/RECIPES.md
+.. _`Symfony recipes`: https://github.com/shancept/recipes
+.. _`documentation`: https://github.com/shancept/recipes
+.. _`RECIPES.md`: https://github.com/shancept/recipes-contrib/blob/flex/main/RECIPES.md
